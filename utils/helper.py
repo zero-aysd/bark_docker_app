@@ -6,7 +6,7 @@ import logging
 os.environ["SUNO_OFFLOAD_CPU"] = "True"
 os.environ["SUNO_USE_SMALL_MODELS"] = "True"
 # download and load all models
-# preload_models()
+preload_models()
 
 
 
